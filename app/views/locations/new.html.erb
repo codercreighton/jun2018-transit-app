@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+
+<h1>Can I get a ride?</h1>
+
+<p>Provide an address or approximate location <em>"I'm at the corner of ...and...</em>, and we'll see if there is a bus nearby.</p>
+
+<%= render 'form', location: @location %>
+
+<%= link_to 'Back', locations_path %>
